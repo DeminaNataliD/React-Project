@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.imgfoll {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.imageforpost {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.img_logo {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.class-a a {
+  color: #3c3c3c;
+}
+
+.h-color {
+  font-family: "Paytone One";
+  color: #202020;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  display: block;
+  margin: 11px 0 17px 0;
+  font-size: 80px;
+  line-height: 80px;
+  color: #706f6f;
+  text-shadow: 0px 15px 5px rgba(0, 0, 0, 0.1),
+    10px 20px 5px rgba(0, 0, 0, 0.05), -10px 20px 5px rgba(0, 0, 0, 0.05);
+  letter-spacing: -4px;
+}
+
+.non-info {
+  font-family: "Paytone One";
+  color: #080808;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  display: block;
+  margin: 11px 0 17px 0;
+  font-size: 40px;
+  line-height: 80px;
+  color: #1b1a1a;
+  text-shadow: 0px 15px 5px rgba(0, 0, 0, 0.1),
+    10px 20px 5px rgba(0, 0, 0, 0.05), -10px 20px 5px rgba(0, 0, 0, 0.05);
+  letter-spacing: -4px;
+}
+
+button {
+  margin: 15px;
+}
+
+button a:hover {
+  color: black;
+}
+
+.wordsBlack:hover {
+  color: black;
+}
+
+.drag-border {
+  border: dashed #706f6f;
+  margin: 30px;
+  cursor: pointer;
+}
